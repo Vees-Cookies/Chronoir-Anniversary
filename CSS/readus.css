@@ -1,0 +1,162 @@
+    /* FONT ADD IN*/
+    @font-face {
+        font-family: 'Kingthings Organica';
+        src: url('../fonts/Kingthings Organica.ttf') format('truetype');
+
+    }
+
+      @font-face {
+        font-family: 'FredokaOne';
+        src: url('../fonts/FredokaOne-Regular.ttf') format('truetype');
+
+    }
+
+        /* BG colour */
+    body{
+        background-color: #fffdf1;
+    }
+
+    .main-cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+        font-family: "Kingthings Organica";
+        font-size: 72px;
+        color: #FF5E70;
+        text-align: center;
+    }   
+
+    .readus{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 800px;
+        margin-top: -180px;
+    }
+
+    .read-images img{
+        width: 880px;
+        height: auto;
+        display: block;
+    }
+
+    .text {
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 50%;
+        text-align: center;
+
+        color: #FF5E70;
+        font-size: 13px;
+        line-height: 1.6;
+        font-family: "FredokaOne"
+    }
+
+    .return{
+        /* position */
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        gap: 20px;
+        z-index: 1000;
+        transform: translateX(-50%);
+        height: 60px;
+
+        display : flex;
+        justify-content: center;
+        align-items: center;
+    }    
+
+        /* button style */
+    button{
+        background-color: #FF5E70;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 15px;
+
+        /* font */
+        font-family: 'Kingthings Organica', sans-serif;
+        font-weight: 600;
+        font-size: 26px;
+        letter-spacing: 1.3px;
+
+    }
+
+    button:hover{
+        scale: 1.1;
+    }
+
+@media screen and (max-width: 790px) {
+    body {
+        padding: 15px;
+        height: 100vh;
+        overflow: hidden; /* kills the scroll */
+        box-sizing: border-box;
+    }
+
+    .main-cont{
+        height: 100vh;
+        justify-content: flex-start;
+    }
+
+    h1 {
+        margin: 8px 0;
+    }
+
+    .readus{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;   /* keeps image glued to bottom */
+    }
+
+    .read-images{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .read-images img{
+        width: auto;
+        height: 88vh;
+        max-height: 88vh;       /* image scales to fit, no more forced width */
+        object-fit: contain;
+        display: block;
+    }
+
+    /* Proportional adjustments to fit inner image text box */
+    .text {
+        top: 59%;
+        width: 85%;
+        font-size: 11px;
+        line-height: 1.4;
+    }
+
+    .return{
+        position: absolute;
+        bottom: 70px;            /* raise/lower this to place it where you want */
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+    }
+    .text p {
+        margin: 0 0 6px 0; /* Shrinks space between paragraphs on small screens */
+    }
+}
