@@ -13,8 +13,6 @@
         background-size: cover;
         background-attachment: fixed;
 
-        background: linear-gradient();
-
     }
 
     h1{
@@ -70,7 +68,7 @@
     }
     /* button style */
     button{
-        background-color: #FF5E70;
+        background-color: #e4a0ff;
         color: white;
         border: none;
         padding: 10px 20px;

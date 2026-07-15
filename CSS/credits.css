@@ -12,7 +12,11 @@
 
         /* BG colour */
     body{
-        background-color: #fffdf1;
+        background-image: url('../Images/Nowa-Website-BG.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
     }
     
     h1{
@@ -121,7 +125,7 @@
     
         /* button style */
     button{
-        background-color: #FF5E70;
+        background-color: #e4a0ff;
         color: white;
         border: none;
         padding: 10px 20px;
