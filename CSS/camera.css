@@ -8,7 +8,11 @@
         /* BG colour */
     body{
         margin: 30px;
-        background-color: #fffdf1;
+        background-image: url('../Images/Nowa-Website-BG.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
 
         min-height: 100vh;
         display: flex;

@@ -7,7 +7,14 @@
 
         /* BG colour */
     body{
-        background-color: #fffdf1;
+        background-image: url('../Images/Nowa-Website-BG.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+
+        background: linear-gradient();
+
     }
 
     h1{
