@@ -28,6 +28,7 @@
     }
 
     .frame-option-selection{
+        background-image: url(Images/Photostrip BG);
         display: flex;
         justify-content: center;
         align-items: flex-start;
