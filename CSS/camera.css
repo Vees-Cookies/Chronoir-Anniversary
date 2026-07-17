@@ -8,8 +8,7 @@
         /* BG colour */
     body{
         margin: 30px;
-        background-image: url('../Images/Nowa-Website-BG.png');
-        background-repeat: no-repeat;
+        background-color: #Fbe6ff;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
