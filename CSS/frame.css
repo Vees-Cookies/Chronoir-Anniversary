@@ -27,7 +27,6 @@
     }
 
     .frame-option-selection{
-        background-image: url('../Images/Photostrip BG');
         background-size: cover;
         display: flex;
         justify-content: center;
